@@ -16,6 +16,7 @@ int main()
     
     float percentage;
     percentage= ((Hindi+English+Math+Drawing+Science)*100)/500;
+    
     cout<<"percentage of five subject is "<<percentage<<"%";
     return 0;
 }
