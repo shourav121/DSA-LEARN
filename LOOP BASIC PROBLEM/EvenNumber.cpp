@@ -5,7 +5,7 @@ int main()
     int i;
     cout<<"these are even number"<<endl;
     cout<<endl;
-    for(i=0;i<+100;i++)
+    for(i=0;i<=100;i++)
     {
         if(i%2==0)
         {

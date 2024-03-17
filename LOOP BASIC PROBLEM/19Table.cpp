@@ -4,9 +4,9 @@ int main()
 {
     int i;
     cout<<"print the table of  "<<endl;
-    for(i=1;i<=10;i++)
+    for(i=19;i<=190;i=i+19)
     {
-        cout<<19*i<<endl;
+        cout<<i<<endl;
     }
     return 0;
 }
