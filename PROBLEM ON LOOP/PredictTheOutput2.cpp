@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i;
+    while (i = 10) {
+        cout << i << endl;
+        i = i + 1;//give an endless loop because i cannot set the value off i.and not using break stement.
+    }
+    return 0;
+}

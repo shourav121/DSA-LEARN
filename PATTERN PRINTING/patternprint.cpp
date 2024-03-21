@@ -13,17 +13,22 @@ int main(){
     int r,c,n;
     cout<<"etner the n number";
     cin>>n;
-
-    for(r=1; r<=n; r++){
-        for(c=1; c<=r; c++){
-            if(r%2!=0){
+    for(r=1;r<=n;r++)
+    {
+        for(c=1;c<=r;c++)
+        {
+            if(r%2!=0)
+            {
                 cout<<c;
+                cout<<" ";
             }
-            if(r%2==0){
+            if(r%2==0)
+            {
                 cout<<char(c+64);
+                cout<<" ";
             }
-            cout<<" ";
+            
         }
-        cout<<endl;
+           cout<<endl;
     }
-}
+    }
