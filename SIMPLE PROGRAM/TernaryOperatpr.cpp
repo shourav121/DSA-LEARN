@@ -3,8 +3,9 @@ using namespace std;
 int main()
 {
   int marks;
-  cout<<"enter the marks of student"<<endl;
+  cout<<"enter the marks of student";
   cin>>marks;
   marks>33 ? cout<<"pass"<<endl :  cout<<"fail"<<endl;
+ 
     return 0;
 }

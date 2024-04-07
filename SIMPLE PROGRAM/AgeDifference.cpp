@@ -2,21 +2,22 @@
 using namespace std;
 int main()
 {
-   int age;
-   cout<<"enter the accurate age"<<endl;
-   cin>>age;
-   if(age<=12)
+   int umar;
+   cout<<"enter the age ";
+   cin>>umar;
+   if(umar<=12)
    {
-    cout<<"this is child"<<endl;
+    cout<<"this is baccha ";
    }
-   else if (age<=18)
+  else if(umar<=18)
    {
-    cout<<"this is teenager"<<endl;
+    cout<<"this is bada";
+
    }
-   else 
+   else
    {
-    cout<<"adult"<<endl;
+    cout<<"budha";
    }
-   
+
     return 0;
 }

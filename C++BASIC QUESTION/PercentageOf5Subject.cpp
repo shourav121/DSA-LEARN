@@ -19,4 +19,4 @@ int main()
     
     cout<<"percentage of five subject is "<<percentage<<"%";
     return 0;
-}
+} 
