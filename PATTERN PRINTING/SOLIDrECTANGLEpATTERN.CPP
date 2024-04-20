@@ -7,11 +7,9 @@ int main()
      {
         for(c=1;c<=7;c++)
         {
-            cout<<"  *";
-            
+            cout<<"  *";   
         }
         cout<<endl;
      }
-    
-    return 0;
+       return 0;
 }

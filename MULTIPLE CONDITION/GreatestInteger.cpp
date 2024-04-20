@@ -13,12 +13,12 @@ int main()
    {
    cout<<a<<"is greater"<<endl;
    }
-   if(b>a && b>c)
+   else if(b>a && b>c)
    {
     cout<<b<<"is greater"<<endl;
    }
    else{
-    cout<<c<<"is greater"<<endl;
+    cout<<c<<"is  NOT greater"<<endl;
    }
 
 

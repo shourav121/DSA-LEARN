@@ -1,14 +1,13 @@
 #include<iostream>
 using namespace std;
 int main()
-{ 
-    int r,c;
-    for(r=1;r<=5;r++)
+{
+    int i,j;
+    for(i=1;i<=5;i++)
     {
-        for(c=1;c<=r;c++)
+        for(j=1;j<=i;j++)
         {
-            cout<<c;
-            
+            cout<<j;
         }
         cout<<endl;
     }

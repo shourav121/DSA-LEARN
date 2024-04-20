@@ -2,20 +2,17 @@
 using namespace std;
 int main()
 {
-    int r,temp,a,b,n;
-    cout<<"enter the n";
+    int i,n,x,y;
+    cout<<"enter a number ";
     cin>>n;
-    temp=0;
-    a=0;
-    b=1;
-    for(r=0; r<=n; r++)
+    x=0;
+    y=1;
+    for(i=0;i<=n;i=x+y)
     {
-        cout<<temp<<",";
-       
-        a=b; 
-        b=temp;
-         temp=a+b;
-
+        x=y;
+        y=i;
+        cout<<" "<<i;
     }
+    
     return 0;
 }

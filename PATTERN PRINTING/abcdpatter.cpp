@@ -15,10 +15,13 @@ cout<<"enter the alphabet number"<<endl;
 cin>>n;
 for(r=1;r<=n;r++)
 {
-    for(c=1;c<=r;c++){
-    cout<<char(c+64);
+    for(c=1;c<=r;c++)
+    {
+        cout<<char(c+64);
+    }
+    cout<<endl;
 }
-cout<<endl;
-}
+
+return 0;
 
 }

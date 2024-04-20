@@ -13,6 +13,7 @@ int main()
    {
     cout<<"this is an equiletral triangle"<<endl;
    }
+   
    else if((a==b) || (b==c) || (c==a))
    {
     cout<<"it is isosceles triangle"<<endl;

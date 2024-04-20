@@ -2,22 +2,17 @@
 using namespace std;
 int main()
 {
-    int r,c;
-    for(r=1;r<=11;r++)
+    int i,j;
+    for(i=1;i<=8;i++)
     {
-        for(c=1;c<=r;c++)
+        for(j=1;j<=i;j++)
         {
-           if(r%2!=0 && c%2!=0){
-            cout<<c;
-           }
-           
-cout<<" ";           
-        }
-       
-        {
-            cout<<endl;
-        }
+            if(i%2!=0&&j%2!=0)
+            {
+                cout<<"  "<<j;
+            }
+        }cout<<endl;
     }
-    return 0;
 
+    return 0;
 }
