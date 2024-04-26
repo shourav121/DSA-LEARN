@@ -14,8 +14,8 @@ int main()
         }
        
     }
-    // cout<<max<<endl;
-    // cout<<index;
+     cout<<"first largest"<<max<<endl;
+     cout<<"it's index "<<index<<endl;
     
     arr[index]=-6767;
     int smax =arr[0];
@@ -24,9 +24,11 @@ int main()
     if(arr[i]>smax)
     {
         smax=arr[i];
+        index=i;
 
     }
 }
- cout<<smax;
+ cout<<"second largest "<<smax<<endl;
+ cout<<"it's index "<<index;
    return 0;
 }
