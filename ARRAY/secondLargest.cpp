@@ -1,19 +1,32 @@
 #include<iostream>
-using namesoace std;
+using namespace std;
 int main()
 {
-   int arr[6]={4,6,7,3,5,9};
-   int max=arr[0];
-   int index=0;
-   for(int i=0;i<6;i++)
-   {
-    if(arr[i]>max)
+    int arr[]={5,87,9,77,98,47,56,45};
+    int max=arr[0];
+    int index =0;
+    for(int i=0;i<8;i++)
     {
-        max=arr[i];
-        index=i;
+        if(arr[i]>max)
+        {
+            max=arr[i];
+            index=i;
+        }
+       
+    }
+    // cout<<max<<endl;
+    // cout<<index;
+    
+    arr[index]=-6767;
+    int smax =arr[0];
+    for(int i=0;i<8;i++)
+{
+    if(arr[i]>smax)
+    {
+        smax=arr[i];
 
     }
-   }
-   
-    return 0;
+}
+ cout<<smax;
+   return 0;
 }
