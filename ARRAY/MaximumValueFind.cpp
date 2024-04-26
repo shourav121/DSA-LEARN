@@ -4,22 +4,17 @@
 using namespace std;
 int main()
 {
-    int arr[12],i,max;
-    for(i=0;i<12;i++)
-    {
-        cout<<"enter number "<<endl;
-        cin>>arr[i];
-
-    }
-    max = arr[0];
-    for(i=0;i<12;i++)
+    int arr[]={6,8,7,5,88,67,52,87};
+    int max,i;
+    max=arr[0];
+    for(i=0;i<8;i++)
     {
         if(arr[i]>max)
         {
             max=arr[i];
         }
         
-    }
-    cout<<max;
+    }  
+    cout<<"maximum element is "<<max;  
     return 0;
 }
