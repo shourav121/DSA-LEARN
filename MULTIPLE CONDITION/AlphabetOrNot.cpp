@@ -7,7 +7,7 @@ int main()
    cin>>choice;
    if(choice>='a' && choice<='z' || choice>='A' && choice<='Z')
 {
-    cout<<" is a character  "<<choice<<endl;
+    cout<<" is a characters  "<<choice<<endl;
 }
 else
 {
