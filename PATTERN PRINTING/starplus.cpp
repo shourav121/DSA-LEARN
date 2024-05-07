@@ -6,6 +6,7 @@ int main()
     int n;
     int r,c;
     int mid;//mid is compulsory for plus...
+7
 
 cout<<"enter the value";
 cin>>n;
