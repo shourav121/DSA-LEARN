@@ -4,9 +4,9 @@ int main()
 {
     int r,c;
     
-    for(r=1;r<=5;r++)
+    for(r=1;r<=4;r++)
     {
-        for(c=5;c<=r;c++)
+        for(c=1;c<=r;c++)
         {
             cout<<c;
         }
