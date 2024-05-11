@@ -12,8 +12,8 @@ Output:
 using namespace std;
 int main()
 {
-      int r,c,n;
-      for(r=1;r<=8;r++){
+      int r,c;
+      for(r=1;r<=4;r++){
         for(c=1;c<=r;c++)
         {
             cout<<"*";
@@ -22,9 +22,9 @@ int main()
          cout<<endl;
       }
        
-        for(r=1;r<=8;r++)
+        for(r=1;r<=4;r++)
         {
-            for(c=1;c<=(8-r);c++)
+            for(c=1;c<=(4-r);c++)
             {
                 cout<<"*";
             }
