@@ -11,7 +11,7 @@
 using namespace std;
 int main()
 {
-    int r,c,n;
+    int r,c,n,m;
     cout<<"enter the number";
     cin>>n;
    for(r=1; r<=n; r++){
