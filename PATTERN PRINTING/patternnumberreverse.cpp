@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int r,c;
+    int r,cm;
     
     for(r=1;r<=5;r++)
     {
