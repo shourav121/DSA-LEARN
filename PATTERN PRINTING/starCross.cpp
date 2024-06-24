@@ -17,6 +17,7 @@ int main()
    for(r=1; r<=n; r++){
     for(c=1; c<=n; c++){
         if(r==c || (r+c)==n+1)
+        
         {
             cout<<"*";
         }
