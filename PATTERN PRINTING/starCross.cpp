@@ -11,7 +11,7 @@
 using namespace std;
 int main()
 {
-    int r,c,n,m;
+    int r,c,n,m;//
     cout<<"enter the number";
     cin>>n;
     
@@ -27,4 +27,4 @@ int main()
     
     cout<<endl;
    }
-}
+}//!m sdv dkfdkl
